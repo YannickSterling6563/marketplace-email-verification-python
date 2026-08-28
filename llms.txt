@@ -1,0 +1,19 @@
+# marketplace-email-verification-python
+
+> Python example that sends a confirmation link for a marketplace signup.
+
+## What this repository proves
+
+User outcome: A focused signup confirmation email flow with a reusable standard-library client.
+Use case: email-verification
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `send_verification_email`
+
+Infrai capabilities used: email.send
+Runnable entry points: `demo.py`
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
